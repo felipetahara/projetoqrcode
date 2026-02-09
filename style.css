@@ -6,6 +6,7 @@
     --Slate900: #263e64;
     --Slate500: #7b89c9;
     --Slate300: #c3c9e8;
+    --Slate100: #e5e9f2;
 }
 
 .outfit-<uniquifier> {
@@ -23,7 +24,7 @@
 
 body { 
     font-family: 'outfit', sans-serif; /*Já que a fonte do <h1> e <p> é igual, deixar aqui o código fica mais limpo */
-    background-color: var(--Slate300);
+    background-color: var(--Slate100);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,20 +43,23 @@ body {
 
 .codigoqr {
     width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    
 }
 
 h1 {
     color: var(--Slate900);
-    font-size: 22px;
+    font-size: 26px;
     margin-bottom: 15px;
     font-weight: 700;
 }
 
 p {
-    color: var(--Slate500);
-    font-size: 15px;
+    color: var(--Slate300);
+    font-size: 18px;
+    margin-bottom: 15px;
     weight: 400;
 }
 
